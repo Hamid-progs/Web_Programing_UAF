@@ -8,9 +8,9 @@ This repository helps you **organize, showcase, and grow** your skills while mai
 
 ## 🧩 File Structure
 
-📦 university-web-projects-repo
-├── 001 Project 1
-├── 002 Project 2
+📦 university-web-projects-repo<br>
+├── 001 Project 1<br>
+├── 002 Project 2<br>
 └── README.md # You're reading it!
 
 ---
