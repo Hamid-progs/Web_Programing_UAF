@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body bgcolor="lightblue">
+    <center><h1><font color="green" align="center">Registration Form</font></h1></center>
+    <hr>
+    <br>
+    <center><form name="Sample Form">
+        Please Enter Your Name <input type="text" size="30" placeholder="Only upper case letters" pattern="[a-zA-Z ]{1,20}" required autocomplete>
+
+        <br>
+        <br>
+
+        Please Enter Your Password <input type="password" size="30">
+
+        <br>
+
+        <input type="hidden" value="Ali" name="name">
+        
+        <br>
+
+        Which laguage Do you Know?
+        <br>
+        C++ <input type="checkbox" name="C" value="C"  checked>
+        VB <input type="checkbox" name="VB" value="VB">
+        Java <input type="checkbox" name="java" value="java">
+
+        <br>
+        <br>
+
+        Your Favorite color:
+        <input type="text" list="Programing Proficiency">
+            <datalist id="Programing Proficiency">
+                <option>Bad</option>
+                <option>Good</option>
+                <option>Best</option>
+            </datalist>
+
+        <br>
+        <br>
+
+        Enter your Email:
+        <input type="emil">
+
+        <br>
+        <br>
+
+        Your Gender?
+        <br>
+        Male <input type="radio" name="gender" value="M" checked>
+        Fe-male <input type="radio" name="gender" value="F">
+
+        <br>
+        <br>
+
+        Your Domicile: 
+        <select name="domicile">
+            <option value="p">Punjab</option>
+            <option value="k">KPK</option>
+            <option value="s">Sindh</option>
+            <option value="b">balochistan</option>
+        </select>
+        
+        <br>
+        <br>
+
+        Your Address:
+        <br>
+        <textarea rows="5" cols="30">Your permanent Address</textarea>
+        
+        <br>
+        <br>
+
+        Dated <input type="date" name="DoB">
+
+        <br>
+        <br>
+
+        Attach your CV <input type="file" name="CV">
+
+        <br>
+        <br>
+
+        <input type="submit" value="Register!">
+        <input type="reset" value="Fill Again">
+    </form></center>
+    <hr>
+    <center><h2>Muhammad Hamid Raza</h2></center>
+</body>
+</html>
