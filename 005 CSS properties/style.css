@@ -1,0 +1,59 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    font-family: arial;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+#family{
+    font-family: arial;
+}
+#size{
+    font-size: 20;
+}
+#weight{
+    font-weight: bold;
+}
+#style{
+    font-style: italic;
+}
+#variant{
+    font-variant: small-caps;
+}
+#color{
+    color: green;
+}
+
+.align{
+    text-align: center;
+}
+#vertical{
+    vertical-align: bottem;
+}
+#decoration{
+    text-decoration: underline;
+}
+#transform{
+    text-transform: uppercase;
+}
+#w-spacing{
+    word-spacing: 4px;
+}
+#l-spacing{
+    letter-spacing: 3px;
+}
+
+li a{
+    color:red;
+}
+li a:hover{
+    color: green;
+}
+
