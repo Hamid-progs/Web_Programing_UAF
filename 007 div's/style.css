@@ -1,0 +1,42 @@
+body{
+    background-color: blue;
+    padding: 10px 30px;
+}
+#header{
+    height: 100px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+#center-content{
+    height: 450px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+#form-container{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-heading{
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+}
+.form-rows{
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+}
+#footer{
+    height: 50px;
+    background-color: green;
+}
+
